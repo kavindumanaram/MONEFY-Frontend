@@ -18,4 +18,5 @@ Angular Application
 |  |
 |  |--app.module.ts
 |
-|--index.html (cdn paths for bootstap and icons)```
+|--index.html (cdn paths for bootstap and icons)
+```
