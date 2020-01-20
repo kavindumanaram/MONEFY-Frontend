@@ -22,4 +22,11 @@ export class PaymentDetailService {
       .toPromise()
       .then(res => (this.list = res as PaymentDetail[]));
   }
+
+  putPaymentDetail(FormData: PaymentDetail) {
+    return this.http.put(
+      this.rootURL + "paymentdetails/" + FormData.PMId,
+      FormData
+    );
+  }
 }

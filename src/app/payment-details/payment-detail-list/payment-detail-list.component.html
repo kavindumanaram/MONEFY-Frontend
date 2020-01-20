@@ -3,5 +3,8 @@
     <td>{{ pd.CardOwnerName }}</td>
     <td>{{ pd.CardNumber }}</td>
     <td>{{ pd.ExpirationDate }}</td>
+    <td (click)="populateForm(pd)">
+      <i class="fas fa-edit fa-lg text-warning"></i>
+    </td>
   </tr>
 </table>
